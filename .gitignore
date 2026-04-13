@@ -1,0 +1,37 @@
+# 1. Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 2. IDEs & Editors
+.vscode/
+.idea/
+*.swp
+
+# 3. Datasets
+data/raw/
+data/processed/
+*.tgz
+*.tar.gz
+*.zip
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# 4. Model Checkpoints & Outputs
+outputs/checkpoints/*.pt
+outputs/checkpoints/*.pth
+outputs/metrics/*.csv
+outputs/error_cases/*.jpg
+outputs/error_cases/*.png
+
+!outputs/checkpoints/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/error_cases/.gitkeep
+!outputs/results/.gitkeep
+
+# 5. OS Generated Files
+.DS_Store
+Thumbs.db

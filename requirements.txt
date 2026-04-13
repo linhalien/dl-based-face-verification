@@ -1,0 +1,20 @@
+# Core Deep Learning
+torch>=2.0.0
+
+# Model Architecture
+timm>=0.9.0             # Required for EfficientNetV2 S/M/L variants
+
+# Face Detection & Alignment
+facenet-pytorch>=2.5.3  # Required for GPU-accelerated MTCNN
+
+# Metrics & Evaluation
+scikit-learn>=1.2.0     # Required for calculating FAR, FRR, EER, and ROC
+pandas>=2.0.0           # Required for exporting the final comparison table (CSV)
+
+# Visualization & Image Processing
+opencv-python>=4.8.0    # Required for the live webcam demo and image handling
+matplotlib>=3.7.0       # Required for plotting ROC curves and Visual Error Analysis
+
+# Utilities
+pyyaml>=6.0             # Required for loading the 6 training configuration files
+tqdm>=4.65.0            # Required for training loop progress bars
